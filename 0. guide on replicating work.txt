@@ -1,0 +1,12 @@
+
+Data Collection
+to collect tweets:
+- go to tweet folder and follow guide.
+- after go to subfolder SQL Queries in crypto historic folder and run Cleaning Tweet Data.sql
+
+to collect price data:
+- go to crypto historic and run poloniex5min.py
+- data will be in subfolder Data in cryptohistoric
+- go SQL Queries subfolder
+- run scripts 1-3 to load the price data from csv into tables. 
+	Note some data cleansing was carried out i.e. deleted columns from csv, added a column for the coin pair to csv and reformatted the timestamp 
